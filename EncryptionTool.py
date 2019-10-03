@@ -72,7 +72,7 @@ def readAndEncrypt(filename):
         current = ord(datalist[i])
         current = encryptChar(current)
         encrypted_list.append(current)
-    file.close()
+
     return encrypted_list
 
 
